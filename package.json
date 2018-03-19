@@ -1,0 +1,22 @@
+{
+  "name": "combinedorderbook",
+  "version": "1.0.0",
+  "description": "### Full Stack Coding Challenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jperryman23/CombinedOrderBook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jperryman23/CombinedOrderBook/issues"
+  },
+  "homepage": "https://github.com/jperryman23/CombinedOrderBook#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
