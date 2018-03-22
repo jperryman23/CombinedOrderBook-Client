@@ -1,0 +1,30 @@
+body {
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 1px solid black;
+    background: rgb(9, 36, 94);
+    color: white;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-family: Dolce Vita;
+    letter-spacing: 7px;
+    font-size: 30px;
+    font-weight: 500;
+
+
+}
+
+
+/* .exchanges {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    font-size: 5px;
+    margin-right: 2em;
+} */
