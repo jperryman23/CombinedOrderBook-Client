@@ -14,12 +14,22 @@
       <div classname="title"> Combined Order Book </div>
    </header>
    <nav>
-      <div>Bittrex | Poloniex | GDAX </div>
+      <div class="markets">Bittrex | Poloniex | GDAX </div>
+
+   <div class="trandingPair"> Trading Pair:
+      <select>
+         <option value="ETH" selected>BTC_ETH [ Ether ]</option>
+         <option value="LTC">BTC_LTC [ Litecoin ]</option>
+         <option value="BCH">BTC_BCH [ B - Cash]</option>
+         <option value="USD">BTC_USD [ US Dollar ]</option>
+      </select>
+   </div>
+
    </nav>
     <div id="mainArea">
 
 <div id="activeOrders">
-      <h4>Bids</h4>
+      <h4 class="bidHeader">BIDS</h4>
          <div class="columnNames">
             <div> RATE </div>
             <div> QUANTITES </div>
@@ -35,7 +45,7 @@
          </section>
 
 
-         <h4>Asks</h4>
+         <h4 class="askHeader">ASKS</h4>
          <div class="columnNames">
             <div> RATE </div>
             <div> QUANTITES </div>
@@ -69,6 +79,7 @@
      <script src="clientasks.js" charset="utf-8"></script>
      <script src="clientbids.js" charset="utf-8"></script>
       <script src="chart.js" charset="utf-8"></script>
+      <script src="ticker.js" charset="utf-8"></script>
 
 
 </body>

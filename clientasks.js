@@ -1,13 +1,18 @@
 const ASKS_URL = 'http://localhost:5000/api/sendasks';
 
 $(() => {
+
+    // var timer = setInterval(function() {
+    //   alert("working")
+    // }, 5000);
+
     // const $quantities = $('#quantities');
     // const $rates = $('#rate');
     // const $exchange = $('#exchange');
     // const $allThree = $('#allThree')
 
     $.get(ASKS_URL).then(data => {
-        console.log(data);
+        // console.log(data);
         poloAsks = data[0]
         bittrexAsks = data[1]
         gdaxAsks = data[2]
