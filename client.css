@@ -1,5 +1,11 @@
+html{
+    height: 90vh;
+}
+
 body {
- height: 100vh;
+ height: 97vh;
+ /* width: 90vw; */
+
 }
 
 header {
@@ -15,26 +21,56 @@ header {
     font-family: Dolce Vita;
     letter-spacing: 7px;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
-h2{
-    margin-top: -.25px;
+nav{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Dolce Vita;
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+#mainArea{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 1px solid blue;
+    justify-content: space-between;
+
+
+}
+
+#activeOrders{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid black;
+    width: 27vw;
+    padding: 3px;
 }
 
 h4{
-    margin-bottom: -.5px;
+    -webkit-margin-after: 1px;
+    -webkit-margin-before: 1px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 #columnNames {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 25vw;
+    width: 24vw;
     font-family: Dolce Vita;
     letter-spacing: 2px;
     font-size: 10px;
-    font-weight: 400;
+    font-weight: 600;
+    margin-top: 5px;
 }
 
 
@@ -45,10 +81,10 @@ h4{
     justify-content: space-between;
     width: 25vw;
     height:35vh;
-    border: 1px solid blue;
+    border: 1px solid black;
     padding: 3px;
-    background-color: rgb(9, 96, 0);
-    
+    background-color: rgb(28, 64, 1);
+
 
 
 }
@@ -76,6 +112,13 @@ h4{
     justify-content: space-between;
     width: 25vw;
     height:35vh;
-    border: 1px solid blue;
+    border: 1px solid black;
     padding: 3px;
+    background-color: rgb(75, 1, 1);
+}
+
+#myChart {
+    border: 1px solid black;
+    width: 70vw !important;
+    height: 86vh !important;
 }

@@ -1,53 +1,74 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-      <link rel="stylesheet" type="text/css" href="client.css">
-      <title>Combined Order Book</title>
-   </head>
-   <body>
-   </main>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="client.css">
+    <title>Combined Order Book</title>
+</head>
+
+<body>
    <header>
       <div classname="title"> Combined Order Book </div>
    </header>
-   <h2> Bittrex | Poloniex | GDAX </h2>
+   <nav>
+      <div>Bittrex | Poloniex | GDAX </div>
+   </nav>
+    <div id="mainArea">
 
-<h4>Bids</h4>
-<div id="columnNames">
-   <div> RATE </div>
-   <div> QUANTITES </div>
-   <div> EXCHANGE </div>
+<div id="activeOrders">
+      <h4>Bids</h4>
+         <div id="columnNames">
+            <div> RATE </div>
+            <div> QUANTITES </div>
+            <div> EXCHANGE </div>
+         </div>
+         <section id="bids" style="overflow-y:scroll">
+
+            <div id="rate"> </div>
+            <div id="quantities"> </div>
+            <div id="exchange"> </div>
+
+         </section>
+
+
+         <h4>Asks</h4>
+         <div id="columnNames">
+            <div> RATE </div>
+            <div> QUANTITES </div>
+            <div> EXCHANGE </div>
+         </div>
+         <section id="asks" style="overflow-y:scroll">
+
+            <div id="a_rate"> </div>
+
+            <div id='a_quantities'> </div>
+
+            <div id="a_exchange"> </div>
+
+         </section>
 </div>
-      <section id="bids" style="overflow-y:scroll">
-
-         <div id="rate">  </div>
-         <div id="quantities">  </div>
-         <div id="exchange">  </div>
-
-      </section>
 
 
-      <h4>Asks</h4>
-      <div id="columnNames">
-         <div> RATE </div>
-         <div> QUANTITES </div>
-         <div> EXCHANGE </div>
-      </div>
-            <section id="asks" style="overflow-y:scroll">
-<!--
-               <div id="rates"> Rate </div>
 
-               <div id="sells"> Quantities </div>
-
-               <div id="exchange"> Exchange </div> -->
-
-            </section>
+    <canvas id="myChart"></canvas>
 
 
-      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js" charset="utf-8"> </script>
-      <script src="client.js" charset="utf-8"></script>
-   </main>
-   </body>
+
+
+</div>
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js" charset="utf-8">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+     <script src="client.js" charset="utf-8"></script>
+      <script src="chart.js" charset="utf-8"></script>
+
+
+</body>
+
 </html>
