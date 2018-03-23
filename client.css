@@ -54,6 +54,13 @@ nav{
     padding: 3px;
 }
 
+.inserts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
 h4{
     -webkit-margin-after: 1px;
     -webkit-margin-before: 1px;
@@ -61,7 +68,7 @@ h4{
     margin-top: 5px;
 }
 
-#columnNames {
+.columnNames {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -84,9 +91,6 @@ h4{
     border: 1px solid black;
     padding: 3px;
     background-color: rgb(28, 64, 1);
-
-
-
 }
 
 #rate {
@@ -94,7 +98,7 @@ h4{
     font-size: 12px;
 }
 
-#quantities {
+#quantity {
     color: white;
     font-size: 12px;
 }
@@ -116,7 +120,20 @@ h4{
     padding: 3px;
     background-color: rgb(75, 1, 1);
 }
+#a_rate {
+    color: white;
+    font-size: 12px;
+}
 
+#a_quantity {
+    color: white;
+    font-size: 12px;
+}
+
+#a_exchange{
+    color: white;
+    font-size: 12px;
+}
 #myChart {
     border: 1px solid black;
     width: 70vw !important;
