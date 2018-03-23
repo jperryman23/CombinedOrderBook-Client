@@ -1,4 +1,4 @@
-const ASKS_URL = 'http://localhost:5000/api/sendasks';
+const ASKS_URL = 'https://combined-order-book.herokuapp.com/api/sendasks';
 
 $(() => {
 

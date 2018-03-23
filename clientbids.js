@@ -1,4 +1,4 @@
-const BIDS_URL = 'http://localhost:5000/api/knexqueries';
+const BIDS_URL = 'https://combined-order-book.herokuapp.com/api/knexqueries';
 
 $(() => {
     // const $quantities = $('#quantities');
