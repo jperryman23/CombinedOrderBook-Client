@@ -1,6 +1,6 @@
 # Combined Order Book
 
-### Full Stack Coding Challenge
+### 
 
 #### Instructions:
 > Build a combined order book that takes the full order books from Bittrex and Poloniex for the BTC_ETH market and displays them in a way that shows combined volume at each price point.
